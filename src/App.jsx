@@ -8,7 +8,7 @@ function App() {
 					JTL Security & Safety Limited.
 				</h1>
 				<p className='text-2xl font-bold font-sans text-center m-5'>
-					This Website is under development, Thank you
+					This Website is under development, Thank you.
 				</p>
 			</div>
 		</>
