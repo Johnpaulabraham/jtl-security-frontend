@@ -33,10 +33,8 @@ const Hero = () => {
 					transition={{ duration: 0.8 }}
 					className='text-3xl md:text-6xl font-extrabold text-white leading-snug md:leading-tight mb-4'
 				>
-					Your Safety, Our Priority
-					<span className='block text-[#1A8EDB]'>
-						Professional Security You Can Trust.
-					</span>
+					Your Safety,
+					<span className='block text-[#1A8EDB]'>Our Priority.</span>
 				</motion.h1>
 
 				{/* Subtext */}
