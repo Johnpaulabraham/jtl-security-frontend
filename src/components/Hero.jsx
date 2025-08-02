@@ -31,7 +31,7 @@ const Hero = () => {
 					initial={{ opacity: 0, y: 40 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
-					className='text-3xl md:text-6xl font-extrabold text-white leading-snug md:leading-tight mb-4'
+					className='text-5xl md:text-8xl font-extrabold text-white leading-snug md:leading-tight mb-4'
 				>
 					Your Safety,
 					<span className='block text-[#1A8EDB]'>Our Priority.</span>
@@ -44,13 +44,11 @@ const Hero = () => {
 					transition={{ delay: 0.2, duration: 0.8 }}
 					className='text-base md:text-xl text-gray-200 leading-relaxed mb-8 px-2 md:px-0'
 				>
-					With <span className='font-semibold'>licensed security experts</span>{" "}
-					and
+					<span className='font-semibold'>JTL Security</span>
+
 					<span className='font-semibold'>
-						{" "}
-						advanced surveillance solutions
+						safety for your people, assets, and property.
 					</span>
-					, JTL Security ensures safety for your people, assets, and property.
 				</motion.p>
 
 				{/* CTA Buttons */}

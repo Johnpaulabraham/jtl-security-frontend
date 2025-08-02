@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "../assets/images/JTL-logo.png";
+import brandName from "../assets/images/brand-name.png";
 
 const Navbar = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Navbar = () => {
 				<Link to='/' className='flex items-center gap-2'>
 					<img src={logo} alt='JTL Logo' className='h-10 w-auto' />
 					<span className='text-[#0A2342] font-bold text-xl tracking-wide'>
-						JTL Security
+						<img src={brandName} alt='Brand Name' className='h-7 w-auto' />
 					</span>
 				</Link>
 
