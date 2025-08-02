@@ -44,11 +44,11 @@ const Hero = () => {
 					transition={{ delay: 0.2, duration: 0.8 }}
 					className='text-base md:text-xl text-gray-200 leading-relaxed mb-8 px-2 md:px-0'
 				>
-					<span className='font-semibold'>JTL Security</span>
-
 					<span className='font-semibold'>
-						safety for your people, assets, and property.
+						JTL Security - against risks and threats.{" "}
 					</span>
+
+					<span className='font-semibold'>24/7 professional security.</span>
 				</motion.p>
 
 				{/* CTA Buttons */}
