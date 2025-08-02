@@ -1,15 +1,30 @@
+import React from "react";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<>
-			<div className='main flex flex-col items-center justify-center h-screen bg-gray-100'>
-				<h1 className='font-extrabold text-blue-900 text-5xl font-serif text-center m-4'>
-					JTL Security & Safety Limited.
-				</h1>
-				<p className='text-2xl font-bold font-sans text-center m-5'>
-					This Website is under development, Thank you.
-				</p>
+			{/* Navbar */}
+			<Navbar />
+			<div className='font-sans bg-black text-white'>
+				{/* Hero Section */}
+				<Hero />
+
+				<section className='container mx-auto px-6 py-20'>
+					<h2 className='text-3xl font-bold text-center text-[#ffffff]'>
+						Our Professional Security Services
+					</h2>
+					<p className='text-center text-gray-100 mt-4 max-w-2xl mx-auto'>
+						We offer top-notch guard services, armed escorts, event security,
+						and advanced technology solutions to keep you safe and secure.
+					</p>
+				</section>
+
+				{/* Footer */}
+				<Footer />
 			</div>
 		</>
 	);
