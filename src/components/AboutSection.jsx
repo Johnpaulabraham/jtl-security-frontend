@@ -44,22 +44,6 @@ const AboutSection = () => {
 						protection of lives and property.
 					</p>
 
-					{/* Key Details */}
-					<div className='bg-gray-50 border border-gray-200 rounded-lg p-6 mb-6 shadow-sm'>
-						<p className='text-gray-800 text-base mb-3'>
-							<span className='font-semibold'>RC Number:</span> 1055137
-						</p>
-						<p className='text-gray-800 text-base mb-3'>
-							<span className='font-semibold'>Office Address:</span>
-							No 4 Ekukinam Street, Utako (NUJ FCT Council)
-						</p>
-						<p className='text-gray-800 text-base'>
-							<span className='font-semibold'>Mission:</span>
-							To provide dependable, responsive, and proactive security
-							solutions that safeguard our clients’ most valuable assets.
-						</p>
-					</div>
-
 					{/* Bullet Points */}
 					<ul className='space-y-2 text-gray-700 mb-8'>
 						<li className='flex items-center gap-2'>
